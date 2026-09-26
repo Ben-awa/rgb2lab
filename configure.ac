@@ -11,6 +11,7 @@ AC_PROG_CC_C99
 
 # 静态库工具（如果以后要编静态库需要）
 AC_PROG_RANLIB
+AM_PROG_AR
 
 # 检查数学库 libm
 AC_CHECK_LIB([m], [pow], [], [
