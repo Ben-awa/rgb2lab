@@ -9,6 +9,6 @@ libpixel_awa_a_SOURCES = pixel_awa_rgb_xyz.c
 libpixel_awa_a_LIBADD = -lm
 
 # 主程序
-bin_PROGRAMS = rgb2lab
-rgb2lab_SOURCES = pixel_awa_main.c
-rgb2lab_LDADD = libpixel_awa.a -lm
+# bin_PROGRAMS = rgb2lab
+# rgb2lab_SOURCES = pixel_awa_main.c
+# rgb2lab_LDADD = libpixel_awa.a -lm
