@@ -1,3 +1,5 @@
+ARFLAGS = crs
+
 # 公共头文件路径
 AM_CPPFLAGS = -I$(top_srcdir)/include
 
